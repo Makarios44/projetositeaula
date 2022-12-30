@@ -1,0 +1,23 @@
+.header
+{
+    text-align: center;
+    background-color: aqua;
+    border-style: solid;
+    height: 100px;
+}
+.main
+{
+    background-color: brown;
+    border-style: solid;
+    text-align: center;
+    height: 500px;
+}
+
+.footer
+{
+    text-align: center;
+    background-color: red;
+    border-style: solid;
+    margin-bottom:10px;
+
+}
