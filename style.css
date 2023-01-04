@@ -1,23 +1,51 @@
-.header
-{
-    text-align: center;
+body{
+    font-family: sans-serif;
+    margin: 0;
+}
+header.line{
     background-color: aqua;
-    border-style: solid;
+    height: 10px;
+}
+.container{
+    max-width: 1140px;
+    margin: auto;
+   
+}
+.header--area{
+    display: flex;
+    justify-content: space-between;
     height: 100px;
+    align-items: center;
 }
-.main
-{
-    background-color: brown;
-    border-style: solid;
-    text-align: center;
-    height: 500px;
+.header--left img{
+    width: 90px;
+    height: 90px;
 }
 
-.footer
-{
-    text-align: center;
-    background-color: red;
-    border-style: solid;
-    margin-bottom:10px;
+.header--right{
+display: flex;
 
+}
+
+.header--menu{
+margin-left: 10px; 
+cursor: pointer;
+}
+
+.header--menu img{
+    width: 24px;
+    height: 24px;
+}
+.banner{
+    min-height: 100%;
+    background-image:url("burgers.jpg") ;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+    
+}
+.banner h1{
+    font-size:30px ;
+    font-weight: bold;
+    font-family: sans-serif;
 }
