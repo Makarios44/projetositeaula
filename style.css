@@ -1,7 +1,33 @@
 body{
     font-family: sans-serif;
-    margin: 0;
+    margin: 0;    
 }
+
+.container
+{
+    background-image:url("burgers.jpg") ;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    color: white;
+    position: relative;
+    z-index: 1;
+}
+
+.container::after {
+    content: '';
+    background-color: black;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    opacity: .8;
+    z-index: -1;
+
+}
+
+
 header.line{
     background-color: aqua;
     height: 10px;
@@ -26,6 +52,13 @@ header.line{
 display: flex;
 
 }
+.pesquisa{
+    width:150px;
+	height:20px;
+	background-color:white;
+	border-radius:10px;
+	}
+
 
 .header--menu{
 margin-left: 10px; 
@@ -38,14 +71,16 @@ cursor: pointer;
 }
 .banner{
     min-height: 100%;
-    background-image:url("burgers.jpg") ;
-   background-size: cover;
-   background-repeat: no-repeat;
-   background-position: center;
+   
     
 }
 .banner h1{
     font-size:30px ;
     font-weight: bold;
     font-family: sans-serif;
+}
+
+.caixa{
+
+    
 }
