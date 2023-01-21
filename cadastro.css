@@ -1,0 +1,40 @@
+.texto1{
+  
+text-align: center;
+font-size: larger;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.cabecalho
+{
+    height: 100px;
+    background-color: rgb(255, 76, 77);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+ 
+.logo{
+    width:100px;
+    display: flex;
+   height: 100px;
+
+}
+
+
+
+.formulario{
+    display: flex;
+   justify-content: center;
+   background-color: rgb(221, 213, 213);
+   
+   padding-left: 21%;
+   margin-top: 1px;
+   background-image: url("burgao.jpg");
+   background-size:700px ;
+    
+}
+input{
+   border-radius: 5px;
+}

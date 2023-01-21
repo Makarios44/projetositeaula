@@ -4,50 +4,106 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastro</title>
-  <link rel="stylesheet" href="style1.css">
+    <title>Pagina de Cadastro</title>
+     <link rel="stylesheet" href="cadastro.css">
 </head>
-<body>
-    <div class="card-principal">
-        <div class ="login">
-             <form class="Card">
-                  <div class="card-header">
-                <h2>Login</h2>
-                 </div>
-             <div class="card-content">
-                    <div class="card-content-area">
-                    <label for="usuario">Usuario</label>
-                 <input type="text" id="usuario">
-              </div>
+<body>      
             
-              <div>
-                <div class="card-content-area">
-                    <label for="password">Senha</label>
-                    <input type="Password" id="password">
-
-                </div>
-
-              </div>
-
-
-               <div class="card-footer">
-               
-                <input type="submit" value="login" class="submit"> 
-                <a href="#" class="recuperar senha">Esqueceu a senha?</a>
-                </div>       
-                
-
-
-            </div>
-
-        </form>
-
-
-
-        <div class="card-content-area">
+        <div class="cabecalho">
+            <img class="logo" src="burguer.jpg" alt="">
+            <p class="texto1" > Formulário de Cadastro </p>
+           
+        </div>
       
-         </div>
+             
+    <div class="formulario">
+        
+       <form action="" method="">
+                <p>
+                    <label for="cpf">CPF: </label> <br>
+                    <input type="text" name="cpf" id="cpf" placeholder="Somente numeros"/>
+                </p>
+                <p>
+                     <label for="nome">Nome: </label><br>
+                     <input type="text" nome="nome" id="nome" required/>
+                </p>
+            
+                <p>
+                      <label for="nome">Sobrenome: </label> <br>
+                     <input type="text" nome="Sobrenome" id="Sobrenome" required/>
 
+               </p>
+
+                <p>
+                    <label for="nascimento">Data de nascimento: </label> <br>
+            
+                     <input type="Date" name="DataNascimento" id="nascimento" required/>
+               </p>
+                <p>
+                     <label for="senha">Senha:</label> <br>
+                     <input type="password" name="senha" id="senha"required/>
+               </p>
+
+                <p>
+                    <label for="senha">Confirme sua senha: </label><br>
+                    <input type="password" nome="Confirme sua senha" id="senha" required/>
+                </p>
+
+    
+                <p>
+                    <label for="email">Email:</label> <br>
+                    <input type="email" name="email" id="email" required/>
+                </p>
+               <p>
+         
+                 <br>selecione o seu hamburguer favorito para concorrer a sorteios<br/>
+                    <input type="checkbox" name="Disciplinas" id="padroes" value="Padrões Web"/>
+                     <label for="padroes">hamburguer de siri</label> <br/>
+        
+                    <input type="checkbox" name="disciplinas" id="logica" value="lógica">
+                     <label for="logica">Burgão</label> <br/>
+           
+                    <input type="checkbox" name="disciplinas" id="inglês" value="inglês">
+                    <label for="logica">burgerzinha</label> <br/>
+             
+                    <input type="checkbox" name="disciplinas" id="portugues" value="portugues "> 
+                     <label for="portugues">hamburgão</label><br/>
+    
+                </p>
+                <p>
+                    <br> Gostaria de receber emails sobre promções dos nossos hamburguers?  </br>     
+                         <input type="radio" name="gostando" id="sim" value="sim">
+                         <label for="sim">Sim</label><br/>
+                        <input type="radio" name="gostando" id="Nao" value="Nao">
+                         <label for="">Não</label>
+               </p>
+
+                <p>
+                        <label for="cidade">Selecione sua cidade:</label>
+                        <select name="cidade" id="cidade">
+                             <option value="Goianinha">Goianinha</option>
+                             <option value="Tibau do sul">Tibau do sul</option>
+                             <option value="parnamirim">parnamirim</option>
+                             <option value="Pipa">Pipa</option>
+                             <option value="Piquiri">Piquiri</option>
+                             <option value="Canguaretama">Canguaretama</option>
+                             <option value="Barra do cunhau">Barra do cunhau</option>
+                        </select>
+               </p>
+        
+                <p>
+                       <label for="numeros">Numero de Telefone: </label><br>
+                       <input type="tel" nome="Telefone" id="number" required/>
+               </p>
+
+
+
+                <p>
+                      <input type="submit" value="Enviar">
+                </p>
+    
+        </form>
+       
     </div>
 </body>
 </html>
