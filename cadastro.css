@@ -1,9 +1,3 @@
-.html{
-    padding: 0;
-    margin: 0;
-}
-
-
 
 
 
@@ -41,13 +35,17 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
    font-style: Bold;
    padding-left: 21%;
    
-   background-image: url("img/burgao.jpg");
+   background-image: url("img/burgao2222.jpg");
+
    background-size:100% ;
    font-size: large     ;
-  background-blend-mode:darken ;
 }
 
 input{
    border-radius: 5px;
    
+}
+
+@media screen and (min-width:293) and  (max-width:749px) {
+
 }
