@@ -164,3 +164,8 @@ body {
 .cart .pay:hover{
     background: #2a2f43f1;
 }
+
+
+@media screen and (min-width:334) and  (max-width:749px) {
+
+}
