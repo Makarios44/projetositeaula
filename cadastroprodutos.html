@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cadastroprodutos.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="header">
+          <span class="span-Cadastro">Cadastro de Produtos</span>
+          <button onclick="openModal()" id="new">Cadastrar</button>
+          <button id="btnLimpar">Limpar</button>
+        </div>
+    
+        <div class="divTable">
+          <table>
+            <thead>
+              <tr>
+                <th>Nome do Produto</th>
+                <th>Descrição do Produto</th>
+                <th>Valor</th>
+                <th>Disponibilidade</th>
+              </tr>
+            </thead>
+            <tbody>
+            </tbody>
+          </table>
+        </div>
+    
+        <div class="modal-container">
+          <div class="modal">
+            <form>
+              <label for="productName">Nome do Produto</label>
+              <input id="productName" type="text" required />
+      
+              <label for="productDescription">Descrição do Produto</label>
+              <input id="productDescription" type="text" required />
+      
+              <label for="productValue">Valor</label>
+              <input id="productValue" type="number" required />
+              <label for="productAvailable">Disponível?</label> 
+              <input id="productAvailable" type="checkbox" class="checkbox"/>
+              <button id="btnSalvar">Cadastrar</button>
+              
+              
+            </form>
+            
+          </div>
+        </div>
+    
+      </div>
+    <script src="func.js"></script>
+</body>
+</html>
